@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="fruit.css">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+  <title>rice</title>
+<script>
+ var image = document.getElementById('mypic');
+ var imagearrayy = ["fruitss1.jpg","fruitss2.jpg","fruitss3.jpg"]
+ var imgindex = 0;
+ function changeimg(){
+  mypic.setAttribute("src",imagearrayy[imgindex]);
+  imgindex++;
+  if (imgindex>=imagearrayy.length) {
+    imgindex = 0;
+  } 
+}
+var intervalHandle = setInterval(changeimg,3000);
+
+mypic.onclick=function(){
+  clearInterval(intervalHandle);
+}
+
+</script>
+
+</head>
+
+<body class="rices">
+
+<a href="#"><img id="mypic" src="fruitss1.jpg" style="height: 500px; width: 1330px;
+"></a>
+
+
+<h1 id="caption1">Featured Products</h1>
+
+
+<hr style="border-color: red;">
+
+
+<div style="padding-top: 50px; padding-bottom: 50px; display: inline-block;">
+<div class="start1"> 
+<div class="happy1">
+  <img class="images1" src="fruitss1.jpg">
+  <p>Avalakki/Aval/Chivda/Poha Thick</p>
+  <select>
+  <option value="1kg pouch-rs54.00">1kg pouch-rs54.00</option>    
+  <option value="1kg pouch-rs54.00">1kg pouch-rs54.00</option> 
+  <option value="500gm pouch-rs27.15">500gm pouch-rs27.15</option> 
+</select>
+<img src="shop.png" style="height: 15px;width: 15px;">
+</div>
+</div>
+
+<div class="start2">
+<div class="happy2">
+  <img class="images1" src="fruitss2.jpg">
+  <p>basmati tukda</p>
+  <select>
+  <option value="1kg pouch-rs78">1kg pouch-rs78</option>  
+  <option value="1kg pouch-rs78">1kg pouch-rs78</option>
+  <option value="500gm pouch-rs40">500gm pouch-rs40</option>
+  </select> 
+  <img src="shop.png" style="height: 15px;width: 15px;">
+  </div>       
+</div>
+
+<div class="start3">
+<div class="happy3">
+  <img class="images1" src="fruitss3.jpg">
+  <p>farmers choice</p>
+  <select>
+  <option value="1kg pouch-rs108">1kg pouch-rs108</option>  
+  <option value="1kg pouch-rs108">1kg pouch-rs108</option>
+  <option value="500gm pouch-rs54">500gm pouch-rs54</option>
+  </select> 
+  <img src="shop.png" style="height: 15px;width: 15px;">
+  </div>
+</div>
+
+<div class="start4">
+<div class="happy4">
+  <img class="images1" src="fruitss1.jpg">
+  <p>farmers choice</p>
+  <select>
+  <option value="1kg pouch-rs98">1kg pouch-rs108</option> 
+  <option value="1kg pouch-rs98">1kg pouch-rs108</option>
+  <option value="500gm pouch-rs49">500gm pouch-rs49</option>
+  </select> 
+  <img src="shop.png" style="height: 15px;width: 15px;">
+  </div>
+</div>
+</div>
+
+
+
+
+<div style="border-top: 2px solid red; border-collapse: collapse; height:900px;width:1330px;">
+
+
+<div class="test" style="float: right; margin-top: 300px;margin-left: 400px"">
+<img src="fruitss1.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+<div class="test" style="float: right;margin-top: 25px;margin-left: 1000px;">
+<img src="fruitss2.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+<div class="test" style="float: right; margin-top: 25px;margin-left: 700px;">
+<img src="fruitss3.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+<div class="test" style="float: right; margin-top: 25px; margin-left:400px;">
+<img src="fruitss1.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+<div class="test" style="float: right; margin-top: 300px;margin-left: 700px"">
+<img src="fruitss2.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+
+
+<div class="test" style="float: right; margin-top: 300px;margin-left: 1000px"">
+<img src="fruitss3.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+
+<div class="test" style="float: right; margin-top: 600px;margin-left: 400px"">
+<img src="fruitss2.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+<div class="test" style="float: right; margin-top: 600px;margin-left: 700px"">
+<img src="fruitss3.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+<div class="test" style="float: right; margin-top: 600px;margin-left: 1000px"">
+<img src="fruitss1.jpg" style="height: 200px; width: 200px;"><br>
+<button>buy them</button>
+</div>
+
+
+<div class="test" style="float: right; margin-top: 825px;padding-left: 1200px"">
+<button class="button" style="background-color: #36AF29; font-size: 20px;color: white;border-radius: 10px;cursor: pointer;  box-shadow: 10px 4px 4px black; 
+"><span>show more..</span></button></div>
+
+
+
+
+
+
+
+<div class="totals2" style=" height: 800px; width: 300px; overflow-y: scroll;">
+
+<span class="totals" style="display: block; ">
+<div class="menus">
+<p class="menus2" style="display: inline;">category</p>
+<ul class="menus3" style="list-style-type: none;">
+  <li> <label class="container">rice bran
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+        </label>
+   </li>
+  
+  <li> <label class="container">olive fruitss
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+ </label>
+ </li>
+
+  <li> <label class="container">dalda
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span></label>
+   </li>
+</ul>
+</div>
+</span>
+
+
+
+
+
+
+
+
+
+
+<span class="totals" style=" display:inline-block">
+
+
+
+<div class="menus">
+<p class="menus2" style="display: inline;">brands</p>
+
+<ul class="menus3" style="list-style-type: none;display:inline-block;">
+ <li><input type="text" placeholder="search">
+<button type="submit" class="ser"><img src="search.png" style="height: 12px;width: 15px;"></button></li>
+  
+  <li> <label class="container">bb Combo
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+        </label>
+   </li>
+  
+  <li> <label class="container">buy them
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+ </label>
+ </li>
+
+  <li> <label class="container">Saffola
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span></label>
+   </li>
+</ul>
+</div>
+</span>
+
+
+
+
+
+
+
+
+
+
+<span class="totals" style="display: block; ">
+<div class="menus">
+<p class="menus2">prices</p>
+<ul class="menus3" style="list-style-type: none;">
+  <li> <label class="container">Less than Rs 20 (1)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+        </label>
+   </li>
+  
+  <li> <label class="container">Rs 21 to Rs 50 (4)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+ </label>
+ </li>
+
+  <li> <label class="container">Rs 51 to Rs 100 (14)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span></label>
+   </li>
+</ul>
+</div>
+</span>
+
+
+
+
+
+
+
+
+<span class="totals" style=" display:block;">
+<div class="menus">
+<p class="menus2">Discounts</p>
+<ul class="menus3" style="list-style-type: none;">
+  <li> <label class="container">Less than Rs 20 (1)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+        </label>
+   </li>
+  
+  <li> <label class="container">Rs 21 to Rs 50 (4)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+ </label>
+ </li>
+
+  <li> <label class="container">Rs 51 to Rs 100 (14)
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span></label>
+   </li>
+</ul>
+</div>
+</span>
+
+
+
+
+
+
+
+
+<span class="totals" style=" display:inline-block;">
+<div class="menus">
+
+<p class="menus2" style="display: inline;">Pack Size</p>
+<ul class="menus3"  style="list-style-type: none; display: inline-block;">
+<li><input type="text" placeholder="search by pack size">
+<button type="submit" class="ser"><img src="search.png" style="height: 12px;width: 15px;"></button></li>
+  
+  <li> <label class="container">2x1 kg Multipack
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+        </label>
+   </li>
+  
+  <li> <label class="container">2x5 kg Multipack
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span>
+ </label>
+ </li>
+
+  <li> <label class="container">Combo 80.0 2 Items
+        <input type="checkbox" name="checked">
+        <span class="checkmark">
+        </span></label>
+   </li>
+
+</ul>
+
+
+
+
+
+</div>
+</span>
+
+
+</div>
+
+
+</div>
+
+
+
+<div style="border-top: 2px solid red;">
+
+
+
+<div style="border-top: 2px solid red;">
+
+<div class="totol" style="margin-top: 60px; font-size: 25px;border:2px solid black;overflow: hidden; padding: 25px; margin-bottom: 60px; line-height: 2.0;">
+
+<span class="about" style="float: left; margin-left: 100px;">
+<span style="color: green"><b>Go Foodiez..</b></span><br>
+<span><a href="#" style="text-decoration: none; color: black;">about</a></span><br>
+<span><a href="#" style="text-decoration: none; color: black;">terms and conditions</a></span><br>
+<span><a href="#" style="text-decoration: none; color: black;">affiliation</a></span><br>
+<span><a href="#" style="text-decoration: none;color: black;">privacy</a></span><br>
+</span>
+
+
+<div style="margin-left: 600px;">
+<span class="contact">
+<span style="color: green;"><b>help</b></span><br>
+<span><a href="#" style="text-decoration: none; color: black;">Contact us</a></span><br>
+<span><a href="#" style="text-decoration: none; color: black;">FAQ's</a></span><br>
+  </span>
+</div>
+</div>
+
+<div style="border-top: 2px solid red;">
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
